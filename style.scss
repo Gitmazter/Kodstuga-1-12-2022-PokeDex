@@ -51,9 +51,17 @@ body {
 #PokeDex {
     border-top: 10px dashed black;
     border-bottom: 10px dashed black;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Zen Dots', cursive;  
     h2 {
         font-size: 100px;
         text-align: center;
         font-family: 'Zen Dots', cursive;
+    }
+    p {
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Zen Dots', cursive;        
     }
 }
