@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(89, 89, 89);
+    color: aqua;
+    font-family: monospace;
+}
+
+#heroimg {
+    display: flex;
+    background-image: url(./stuga.JPG);
+    background-size: cover;
+    max-height: 100vh;
+    justify-content: center;
+    border-bottom: 10px dashed black;
+    
+    #herotxt{
+        background-color: rgba(0, 0, 0, 0.533);
+        color: wheat;
+        height: 200px;
+        width: 800px;
+        font-size: 30px;
+        margin: 50vh;
+        border: outset 10px black;
+        flex-direction: column;
+        justify-content: center;
+        h1 {
+            margin: 60px;
+            padding: 0px;
+            text-align: center;
+        }
+    }
+}
+
+#clock_exercise {
+    border-top: 10px dashed black;
+    border-bottom: 10px dashed black;
+    h2 {
+        font-size: 100px;
+        text-align: center;
+        font-family: 'Zen Dots', cursive;
+    }
+    div {
+        font-size: 100px;
+        text-align: center;
+        font-family: 'Zen Dots', cursive;
+        margin-bottom: 40px;
+    }
+}
+
+#PokeDex {
+    border-top: 10px dashed black;
+    border-bottom: 10px dashed black;
+    h2 {
+        font-size: 100px;
+        text-align: center;
+        font-family: 'Zen Dots', cursive;
+    }
+}
